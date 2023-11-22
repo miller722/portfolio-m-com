@@ -1,23 +1,50 @@
-import { useState } from 'react'
-import './App.css'
+
+import React, { Suspense, lazy } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
+import TabsContainer from "./components/Tabs/TabsContainer";
+import TabPanel from "./components/TabPanel/TabPanel";
+import { tabLists, socialNetworksList } from "./data/tab-lists";
+import './App.css';
+
+
+const Offer = lazy(() => import("./components/Tabs/Offer"));
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // const indicateComponent = (path) => {
+  //   if (path === "dummyTable") {
+  //     return <DummyTable />;
+  //   } else if (path === "dummyList") {
+  //     return <DummyList />;
+  //   } else if (path === "dummyChart") {
+  //     return <DummyChart />;
+  //   }
+  // };
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Router>
+        <TabsContainer tabLists={tabLists} socialNetworksList={socialNetworksList}>
+          <Routes>
+            {tabLists.map((tabList) => (
+              <Route
+                key={tabList.tabKey}
+                path={tabList.tabKey}
+                element={
+                  <Suspense fallback={<h2>🌀 Loading...</h2>}>
+                    {<Offer />}
+                  </Suspense>
+                }
+              />
+            ))}
+            <Route path="*" element={<Navigate to="home" />} />
+          </Routes>
+        </TabsContainer>
+      </Router>
     </>
   )
 }
