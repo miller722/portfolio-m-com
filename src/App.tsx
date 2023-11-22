@@ -1,5 +1,5 @@
 
-import React, { Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -7,7 +7,6 @@ import {
   Navigate,
 } from "react-router-dom";
 import TabsContainer from "./components/Tabs/TabsContainer";
-import TabPanel from "./components/TabPanel/TabPanel";
 import { tabLists, socialNetworksList } from "./data/tab-lists";
 import './App.css';
 
