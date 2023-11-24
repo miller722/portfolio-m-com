@@ -1,4 +1,3 @@
-
 import { Suspense, lazy } from "react";
 import {
   BrowserRouter as Router,
@@ -12,18 +11,23 @@ import './App.css';
 
 
 const Offer = lazy(() => import("./components/Tabs/Offer"));
+const MyContacts = lazy(() => import("./components/Tabs/MyContacts"));
+const Portfolio = lazy(() => import("./components/Tabs/Portfolio"));
+const Resume = lazy(() => import("./components/Tabs/Resume"));
 
 
 function App() {
-  // const indicateComponent = (path) => {
-  //   if (path === "dummyTable") {
-  //     return <DummyTable />;
-  //   } else if (path === "dummyList") {
-  //     return <DummyList />;
-  //   } else if (path === "dummyChart") {
-  //     return <DummyChart />;
-  //   }
-  // };
+  const indicateComponent = (path: string) => {
+    if (path === "offer") {
+      return <Offer />;
+    } else if (path === "contacts") {
+      return <MyContacts />;
+    } else if (path === "portfolio") {
+      return <Portfolio />;
+    } else if (path === "cv") {
+      return <Resume />;
+    }
+  };
   return (
     <>
       <Router>
@@ -35,12 +39,12 @@ function App() {
                 path={tabList.tabKey}
                 element={
                   <Suspense fallback={<h2>🌀 Loading...</h2>}>
-                    {<Offer />}
+                    {indicateComponent(tabList.tabKey)}
                   </Suspense>
                 }
               />
             ))}
-            <Route path="*" element={<Navigate to="home" />} />
+            <Route path="*" element={<Navigate to="/offer" />} />
           </Routes>
         </TabsContainer>
       </Router>

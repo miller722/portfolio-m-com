@@ -7,6 +7,7 @@ type TabListProps = {
 };
 
 const TabList = ({ tabLists, socialNetworksList }: TabListProps) => {
+
     return (
         <SideBar>
             <PersonAvatar>
