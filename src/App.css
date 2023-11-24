@@ -84,15 +84,15 @@ strong {
 
 @media (max-width: 521px) {
   .offer__wrapper {
-    padding: 20px;
-    max-width: 480px;
+    padding: 10%;
+    max-width: 80%;
     width: 100%;
   }
 }
 @media (max-width: 426px) {
   .offer__wrapper {
-    padding: 20px;
-    max-width: 380px;
+    padding: 10%;
+    max-width: 80%;
     width: 100%;
   }
   
@@ -112,15 +112,15 @@ strong {
 }
 @media (max-width: 376px) {
   .offer__wrapper {
-    padding: 20px;
-    max-width: 330px;
+    padding: 10%;
+    max-width: 80%;
     width: 100%;
   }
 }
 @media (max-width: 321px) {
   .offer__wrapper {
-    padding: 20px;
-    max-width: 280px;
+    padding: 10%;
+    max-width: 80%;
     width: 100%;
   }
   .offer__wrapper p {
