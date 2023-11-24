@@ -30,6 +30,12 @@ export const StyledNavLink = styled(NavLink)`
   z-index: 2;
   font-family: Oswald;
   font-size: 24px;
+  &.hover {
+    color: gray;
+  }
+  &.active {
+    color: hsl(204 20% 100%);
+  }
 `;
 
 

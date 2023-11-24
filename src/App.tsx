@@ -44,7 +44,7 @@ function App() {
                 }
               />
             ))}
-            <Route path="*" element={<Navigate to="home" />} />
+            <Route path="*" element={<Navigate to="/offer" />} />
           </Routes>
         </TabsContainer>
       </Router>

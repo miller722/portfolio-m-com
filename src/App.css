@@ -48,3 +48,30 @@ strong {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
+.contacts-section{
+    font-family: Oswald;
+    padding: 40px;
+}
+
+.contact-info{
+    font-family: Oswald;
+    font-size: 16px;
+}
+
+.contact-link {
+  margin-left: 5px;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+  }
+
+  /* .navLink {
+ color: red !important;
+  }
+  &.active {
+    background-color: hsl(204 100% 40%) !important;
+    color: hsl(204 20% 100%) !important;
+  }
+ */

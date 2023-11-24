@@ -1,7 +1,7 @@
-export type TabListType = {
+export interface TabListType {
     tabKey: string;
     title: string;
-};
+}
 
 export type SocialNetworksListType = {
     [x: string]: any;
@@ -11,7 +11,7 @@ export type SocialNetworksListType = {
 
 export const tabLists = [
     { tabKey: "offer", title: "Offer" },
-    { tabKey: "contact", title: "Hire Me" },
+    { tabKey: "contacts", title: "Hire Me" },
     { tabKey: "portfolio", title: "Portfolio" },
     { tabKey: "cv", title: "CV" },
 ];
