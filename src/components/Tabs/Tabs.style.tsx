@@ -24,6 +24,7 @@ export const TabPanelContainer = styled.div`
     flex-direction: column;   
     max-width: 440px;
     width: 100%
+    
   }
 `;
 
