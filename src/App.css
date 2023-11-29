@@ -1,3 +1,4 @@
+
 body {
   background-color: rgb(234, 227, 227);
   box-sizing: border-box;
@@ -28,7 +29,11 @@ p {
   height: 150px;
 }
 
-.person-title {
+.person__inner{
+  text-align: center;
+}
+
+.person__title {
   font-family: Oswald;
   font-size: 28px;
   color: #fff;
@@ -39,6 +44,7 @@ p {
   font-family: Oswald;
   font-size: 24px;
   color: #fff;
+  margin-top: 10px;
 }
 
 .offer__wrapper {
@@ -86,7 +92,12 @@ strong {
   .offer__wrapper {
     padding: 10%;
     max-width: 80%;
-    width: 100%;
+    width: 100%; 
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
   }
 }
 @media (max-width: 426px) {
@@ -102,12 +113,29 @@ strong {
   .offer__wrapper li {
     font-size: 12px;
   }
+  .offer__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
   strong {
     font-size: 12px;
   }
-  .offer__title {
-    font-size: 24px;
-    margin-bottom: 15px;
+  .person__inner {
+    text-align: start;
+  }
+  .person__title {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .person-info {
+    font-family: Oswald;
+    font-size: 12px;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
   }
 }
 @media (max-width: 376px) {
@@ -115,6 +143,20 @@ strong {
     padding: 10%;
     max-width: 80%;
     width: 100%;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .person__title {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .person-info {
+    font-family: Oswald;
+    font-size: 10px;
   }
 }
 @media (max-width: 321px) {

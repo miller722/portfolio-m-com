@@ -17,6 +17,7 @@ const Resume = lazy(() => import("./components/Tabs/Resume"));
 
 
 function App() {
+
   const indicateComponent = (path: string) => {
     if (path === "offer") {
       return <Offer />;
