@@ -1,16 +1,11 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { projectDataList } from '../../data/data-lists';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import './swiper.css';
-
-// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Portfolio = () => {
