@@ -20,7 +20,6 @@ background-color: rgba(139, 69, 19, 0.8);
   height: 40px;
 }
 `;
-
 export const Person = styled.div`
 display: flex;
 flex-direction: column;
@@ -46,7 +45,7 @@ display: flex;
   position: fixed;
   right: 0;
   top: 0;
-
+  z-index: 10;
   height: 100%;
   background-image: url('img/site-bar-bg.avif');
   background-repeat: no-repeat;
@@ -128,6 +127,7 @@ export const HamburgerButton = {
     width: 1.5rem;
     position: relative;
     font-size: 12px;
+
 
     @media only screen and (max-width: 40em) {
       display: block;

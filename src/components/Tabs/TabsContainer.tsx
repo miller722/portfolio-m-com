@@ -1,5 +1,5 @@
 import { TabContainer, TabPanelContainer } from "./Tabs.style";
-import { SocialNetworksListType, TabListType, socialNetworksList } from "../../data/tab-lists";
+import { SocialNetworksListType, TabListType, socialNetworksList } from "../../data/data-lists";
 import TabList from "../TabList/TabList";
 
 type TabsProps = {

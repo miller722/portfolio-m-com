@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { TabListType, SocialNetworksListType } from "../../data/tab-lists";
+import { TabListType, SocialNetworksListType } from "../../data/data-lists";
 import {
     TabListContainer,
     StyledNavLink,
