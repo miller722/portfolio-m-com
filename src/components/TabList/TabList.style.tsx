@@ -29,7 +29,7 @@ gap: 10px;
 margin-top: 30px;
 @media only screen and ${devices.sm} {
   flex-direction: row;
-  margin-top: 1px;
+  margin-top: 0;
 }
 `;
 

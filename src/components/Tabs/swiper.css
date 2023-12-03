@@ -2,7 +2,6 @@
 html,
 body {
   position: relative;
-  height: 100%;
 }
 
 body {
@@ -32,14 +31,18 @@ body {
   width: 100%;
 }
 
-.project__heading {
+.projects__wrapper {
+  padding-top: 30px;
+}
+
+.projects__heading {
     font-family: Oswald;
     color: #390303;
     margin-top: 50px;
     text-align: center;
 }
 
-.project__description{
+.projects__description{
     margin-top: 10px;
     color: white;
     background-color: rgba(139, 69, 19, 0.8);
@@ -48,4 +51,12 @@ body {
     font-family: Oswald;
     font-size: 16px;
     font-weight: 700;
+}
+
+
+@media (max-width: 321px) {
+  .swiper-slide {
+    width: 250px;
+    height: 250px;
+  }
 }
