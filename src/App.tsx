@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import TabsContainer from "./components/Tabs/TabsContainer";
-import { tabLists, socialNetworksList } from "./data/tab-lists";
+import { tabLists, socialNetworksList } from "./data/data-lists";
 import './App.css';
 
 
