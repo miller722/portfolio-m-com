@@ -52,7 +52,7 @@ const TabList = ({ tabLists, socialNetworksList }: TabListProps) => {
             </HamburgerButton.Wrapper>
             <TabListContainer ref={drawerRef} openDrawer={openDrawer}>
                 {tabLists.map((item) => (
-                    <StyledNavLink key={item.tabKey} to={item.tabKey}>
+                    <StyledNavLink key={item.tabKey} to={item.tabKey} onClick={() => toggleDrawer(false)} >
                         {item.title}
                     </StyledNavLink>
                 ))}

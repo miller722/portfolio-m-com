@@ -31,7 +31,7 @@ function App() {
   };
   return (
     <>
-      <Router basename="/portfolio-m-com">
+      <Router>
         <TabsContainer tabLists={tabLists} socialNetworksList={socialNetworksList}>
           <Routes>
             {tabLists.map((tabList) => (
