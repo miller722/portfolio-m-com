@@ -1,1 +1,0 @@
-import{r as e,j as s}from"./index-a41a21e7.js";const o="/portfolio-m-com/assets/MykhailosResume-58078049.pdf",m=()=>(e.useEffect(()=>{(()=>{window.open(o,"_blank")})()},[]),s.jsx("div",{}));export{m as default};
