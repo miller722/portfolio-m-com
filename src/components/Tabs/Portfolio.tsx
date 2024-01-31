@@ -25,7 +25,7 @@ const Portfolio = () => {
                         modifier: 1,
                         slideShadows: false,
                     }}
-                    pagination={false}
+                    pagination={true}
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >

@@ -38,7 +38,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 35px;
-display: flex;
 
 
 @media only screen and ${devices.sm} {
@@ -54,7 +53,7 @@ display: flex;
   flex-direction: column;
 
   background-color: white;
-  padding: 1rem 2rem;
+  padding: 20px 20px 200px 20px;
 
   transition: 0.2s ease-out;
 
