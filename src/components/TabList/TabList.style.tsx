@@ -27,6 +27,9 @@ justify-content: start;
 align-items: center;
 gap: 10px; 
 margin-top: 30px;
+@media only screen and ${devices.xl} {
+  margin-top: 10px;
+}
 @media only screen and ${devices.sm} {
   flex-direction: row;
   margin-top: 0;
@@ -38,7 +41,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 35px;
-
+@media only screen and ${devices.xl} {
+  margin-top: 15px;
+}
 
 @media only screen and ${devices.sm} {
   position: fixed;
@@ -79,6 +84,9 @@ export const StyledNavLink = styled(NavLink)`
   }
   &.active {
     color: hsl(204 20% 100%);
+  }
+  @media only screen and ${devices.xl} {
+    font-size: 20px;
   }
   @media only screen and ${devices.sm} {
     font-size: 18px;
