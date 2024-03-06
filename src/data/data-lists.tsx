@@ -4,7 +4,7 @@ export interface TabListType {
 }
 
 export type SocialNetworksListType = {
-    [x: string]: any;
+
     name: string;
     path: string;
 };
