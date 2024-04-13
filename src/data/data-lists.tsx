@@ -4,7 +4,7 @@ export interface TabListType {
 }
 
 export type SocialNetworksListType = {
-
+    [x: string]: any;
     name: string;
     path: string;
 };
@@ -33,7 +33,9 @@ export const projectDataList = [
     { src: "trafalgar.jpg", description: "Trafalgar provides progressive, and affordabl healthcare, accessible on mobile and online for everyone", path: "https://miller722.github.io/Portfolio/" },
     { src: "mercedes-benz.jpg", description: "Electromobility in harmony with humanity and nature. The environmentally friendly technology of organic batteries and a well-thought-out operational strategy of the VISION AVTR", path: "https://miller722.github.io/landingMercedesBenz/" },
     { src: "heavyweight-boxers-rating.jpg", description: "Welcome to BoxingRating! Delve into our curated Top 10 heavyweight boxers list. Explore detailed biographies, stats, and insights into their careers. Join us in celebrating the elite of boxing!", path: "https://heavyweight-boxers-rating.netlify.app/" },
-    { src: "my-real-estate-demo.jpg", description: "Aliquam fermentum erat eu nunc dignissim hendrerit. Praesent tellus, orci imperdiet id accumsan in, cursus eu mauris.", path: "https://my-real-estate-demo.netlify.app/" }
+    { src: "my-real-estate-demo.jpg", description: "Aliquam fermentum erat eu nunc dignissim hendrerit. Praesent tellus, orci imperdiet id accumsan in, cursus eu mauris.", path: "https://my-real-estate-demo.netlify.app/" },
+    { src: "final-test-layout.jpg", description: "Do you have a million ideas for growth, but don’t have the bandwidth to turn them into a reality? Running a business means wearing a lot of hats...", path: "https://final-test-layout.netlify.app/" }
+
 ];
 
 
