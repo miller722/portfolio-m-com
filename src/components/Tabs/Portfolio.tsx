@@ -32,7 +32,7 @@ const Portfolio = () => {
                     {projectDataList.map((item, index) => (
                         <SwiperSlide key={index}>
                             <img src={`/img/${item.src}`} onClick={() => window.open(item.path, "_blank")} />
-                            <p className='projects__description'>{item.description}</p>
+                            <p  style={{ whiteSpace: "pre-line" }} className='projects__description'>{item.description}</p>
                         </SwiperSlide>
                     ))}
 

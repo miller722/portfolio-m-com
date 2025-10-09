@@ -34,10 +34,12 @@ export const projectDataList = [
     { src: "mercedes-benz.jpg", description: "Electromobility in harmony with humanity and nature. The environmentally friendly technology of organic batteries and a well-thought-out operational strategy of the VISION AVTR", path: "https://miller722.github.io/landingMercedesBenz/" },
     { src: "heavyweight-boxers-rating.jpg", description: "Welcome to BoxingRating! Delve into our curated Top 10 heavyweight boxers list. Explore detailed biographies, stats, and insights into their careers. Join us in celebrating the elite of boxing!", path: "https://heavyweight-boxers-rating.netlify.app/" },
     { src: "my-real-estate-demo.jpg", description: "Aliquam fermentum erat eu nunc dignissim hendrerit. Praesent tellus, orci imperdiet id accumsan in, cursus eu mauris.", path: "https://my-real-estate-demo.netlify.app/" },
+    { src: "gran-street-honey.jpg", description: "🍯 Natural Honey Store — a stylish Shopify shop featuring pure honey products. Cozy design, responsive layout, and realistic product descriptions. \n\n 🔑 Password: qwer4", path: "https://gran-street-honey.myshopify.com/"},
+    { src: "landing-by-byteex.jpg", description: "Discover innovative digital solutions with ByteEx. This landing page offers a modern and responsive design, tailored for tech-forward companies looking to enhance their online presence.", path: "https://landing-by-byteex.netlify.app/" },
     { src: "final-test-layout.jpg", description: "Do you have a million ideas for growth, but don’t have the bandwidth to turn them into a reality? Running a business means wearing a lot of hats...", path: "https://final-test-layout.netlify.app/" },
-    { src: "event-calendar.jpg", description: "Next.js project with TypeScript and Ant Design enables easy creation and management of events in a calendar. Efficient time planning is facilitated through an intuitive interface and functional capabilities.", path: "https://next-js-calendar.netlify.app/" },
-    { src: "quiz-app.jpg", description: "Create and take quizzes with MikeCom Quiz React App. Engage in interactive learning experiences and test your knowledge on various topics!", path: "https://mikecom-quiz-react-app.netlify.app/" },
-    { src: "landing-by-byteex.jpg", description: "Discover innovative digital solutions with ByteEx. This landing page offers a modern and responsive design, tailored for tech-forward companies looking to enhance their online presence. Experience the synergy of creativity and functionality, with intuitive layouts and sleek visuals that will take your business to the next level.", path: "https://landing-by-byteex.netlify.app/" }
+    { src: "event-calendar.jpg", description: "Next.js project with TypeScript and Ant Design enables easy creation and management of events in a calendar. \n\n 🔑Login:admin, Password:1234.", path: "https://next-js-calendar.netlify.app/" },
+    { src: "quiz-app.jpg", description: "Create and take quizzes with MikeCom Quiz React App. Engage in interactive learning experiences and test your knowledge on various topics!", path: "https://mikecom-quiz-react-app.netlify.app/" }
+
 
 ];
 
